@@ -428,19 +428,20 @@
             </div>
             <script>
                 const shareData = {
-                    url: "www.google.com",
+                    url: "https://bryantnorman.github.io/AC-HOTELS-MARRIOTT/",
                 };
             
                 const btn = document.getElementById("shareButton");
-                const resultPara = document.querySelector(".result");
+                // const resultPara = document.querySelector(".result");
             
                 // Share must be triggered by "user activation"
                 btn.addEventListener("click", async () => {
                     try {
                         await navigator.share(shareData);
-                        resultPara.textContent = "Shared successfully";
-                    } catch (err) {
-                        resultPara.textContent = `Error: ${err}`;
+                        // resultPara.textContent = "Shared successfully";
+                    } 
+                    catch (err) {
+                        // resultPara.textContent = `Error: ${err}`;
                     }
                 });
             </script>
