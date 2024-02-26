@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AC by Marriott</title>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
-            rel="stylesheet">
-        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC by Marriott</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
         /* Default styles */
         body {
             font-family: 'Montserrat', sans-serif;
@@ -90,15 +88,17 @@
         .menu-item-description {
             font-size: 12px;
         }
-        .name{
+
+        .name {
             font-size: 14px;
             font-family: 'Century Schoolbook', serif;
         }
 
         /* Media query for tablets */
-        @media only screen and (max-width< 1024px) {
-            .main-con {
-                max-width: 80%;
+        @media only screen and (max-width: 1024px) {
+            .main-con,
+            .container-1 {
+                max-width: 100%;
                 /* Adjust width for tablets */
             }
 
@@ -110,7 +110,8 @@
 
         /* Media query for mobile devices */
         @media only screen and (max-width: 600px) {
-            .main-con {
+            .main-con,
+            .container-1 {
                 max-width: 100%;
                 /* Adjust width for mobile devices */
             }
@@ -133,7 +134,8 @@
             max-width: 600px;
             /* Set maximum width */
         }
-        .logo-1{
+
+        .logo-1 {
             padding-top: 120px;
             width: 30%;
             /* Set width of the logo */
@@ -142,7 +144,8 @@
             text-align: center;
             /* Align text inside the logo container */
         }
-        .logo-2-1{
+
+        .logo-2-1 {
             padding-top: 40px;
             padding-bottom: 40px;
             width: 80%;
@@ -152,6 +155,7 @@
             text-align: center;
             /* Align text inside the second logo container */
         }
+
         .Footer-img-1 {
             position: absolute;
             /* Position SVG absolutely */
@@ -163,28 +167,29 @@
             /* Set the height of the SVG to match its container */
             width: 100%;
         }
+
         .footer-1 {
             height: 80px;
             font-size: 20px;
             margin-bottom: 10px;
             padding-left: 30px;
         }
-        .svg-icon-1{
 
+        .svg-icon-1 {
             position: absolute;
             top: 0;
             right: 0;
-            height: 100%; /* Adjust the height as needed */
-            width: auto; 
+            height: 100%;
+            /* Adjust the height as needed */
+            width: auto;
         }
     </style>
-    </head>
+</head>
 
-    <body>
-        <div class="page-1">
-        <div class="main-con-1">
-            <div class="container-1" style="max-width: 600px; margin: 0 auto; background-color: #E5E0DB;">
-                <div class="container-1" style="margin: 30px;">
+<body>
+    <div class="main-con-1">
+        <div class="container-1" style="margin: 0 auto; background-color: #E5E0DB;">
+            <div class="container-1" style="margin: 30px;">
                 <div class="logo-1">
                     <img src="Assets/3Asset 1.svg" alt="">
                 </div>
@@ -195,22 +200,18 @@
           border-left: none; margin-top: 120px;  margin-bottom: 0px;">
                     <div class="footer-1" style="padding-left: 0px; margin-bottom: 0px;">
                         <!-- <h2>In Room Dining</h2> -->
-                        <img class="svg-icon-1" src="Assets/3Asset 4.svg"
-                            alt="Asset 5">
+                        <img class="svg-icon-1" src="Assets/3Asset 4.svg" alt="Asset 5">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
         <div class="space" style="margin-bottom: 30px;"></div>
-        <div class="page-2">
         <div class="main-con">
             <div class="container" style="border-right:none;
       border-left: none; border-top: none;">
                 <div class="heading">
                     <h2>In Room Dining</h2>
-                    <img class="svg-icon" src="Assets/3Asset 5.svg"
-                        alt="Asset 5">
+                    <img class="svg-icon" src="Assets/3Asset 5.svg" alt="Asset 5">
                 </div>
             </div>
             <div class="content" id="content">
@@ -218,12 +219,11 @@
                     <!-- <p class="menu-item-name"><span class="name" style="font-size: larger;"><i>Soup of the day with
                             grilled bakers’
                             bread and butter (V) </i></span> <span style="font-size: 16px;">£7.00</span></p> -->
-                    <p class="menu-item-description">Available daily from 12noon
-                        until 10pm <br>
-                        Please allow 45 minutes for your order to be delivered
-                        to your room.
+                    <p class="menu-item-description">Available daily from 12noon until 10pm <br>
+                        Please allow 45 minutes for your order to be delivered to your room.
                     </p>
                 </div>
+                <!-- Remaining menu items -->
                 <div class="menu-item">
                     <p class="menu-item-name"><span class="name"
                             style="font-size: larger;"><i>Soup of the day with
@@ -348,21 +348,18 @@
             </div>
         </div>
     </div> -->
-            <div class="container"
-                style="margin-bottom: 0px; border-left: none; border-right: none; border-bottom: none;">
+            </div>
+            <div class="container" style="margin-bottom: 0px; border-left: none; border-right: none; border-bottom: none;">
                 <div class=" footer" style="font-size: 12px;">
                     <p>V=Vegetarian Vg=Vegan Vga= Vegan Adaptable</p>
-                    <p>Allergen information is available, please ask. Although
-                        we strive to take every precaution,
-                        unfortunately, we cannot guarantee that trace allergens
-                        are not sometimes present. We apologise for any
-                        inconvenience this may cause.</p>
-                    <img class="svg-icon" src="Assets/3Asset 2.svg"
-                        alt="Asset 2" style="height: 120px;">
+                    <p>Allergen information is available, please ask. Although we strive to take every precaution,
+                        unfortunately, we cannot guarantee that trace allergens are not sometimes present. We apologise
+                        for any inconvenience this may cause.</p>
+                    <img class="svg-icon" src="Assets/3Asset 2.svg" alt="Asset 2" style="height: 120px;">
                 </div>
             </div>
         </div>
     </div>
-    </body>
+</body>
 
 </html>
